@@ -1,0 +1,135 @@
+.bg-img{
+    background-image: url('../img/background.jpg') ;
+}
+.bg-white{
+    background: white;
+}
+.img-fluid{
+    width:100%;
+    height:auto;
+}
+.container{
+    position: relative;
+}
+
+@media (min-width:768px){
+  
+}
+.row >* {
+      padding: 0;
+      margin:0 0px;
+}
+.bg-1{
+    background-color: #448aca;
+    float:left;
+}
+.bg-2{
+    background-color: #ea68a2;
+
+}
+.bg-3{
+    background-color:#8957a1;
+
+}
+.bg-4{
+    background-color:#f19149;
+
+}
+
+.box{
+    display: block;
+    margin:50px auto 0;
+    margin-left: 30px;
+    border:  5px solid #dc3545;
+	width: 600px;
+	height: 350px;
+    border-radius:8px /*圓角*/;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.title{
+    background:#dc3545;
+    color:#fff;
+    width:210%;
+}
+.box-1{
+    display: block;
+    align-content:flex-start;
+    margin:50px auto 0;
+    border:  5px solid #448aca;
+	width: 600px;
+	height: 350px;
+    border-radius:8px /*圓角*/;
+    overflow: hidden;
+    float:right;
+    margin: left 100px ;
+    float: right;
+    margin-right: 30px;
+
+}
+.title-1{
+    background:#448aca;
+    color:#fff;
+    width:250%;
+}
+.about-img{
+    display:flex;
+}
+.row .btn{
+    display: block;
+    text-align: center;
+    padding:8px 8px; /*上下左右內距值*/
+    border:1px solid #448aca;/*邊框、實線、邊框顏色*/
+    width:auto;
+    height: 30px;
+    font-size: 14px;
+    color:#448aca ;
+    transition:all 0.5s;
+}
+.btn{
+    vertical-align:bottom;
+    background:#94c5d6;
+    display:flex; align-items:flex-end;
+
+}
+.btn:hover{
+    color:#fff;
+    background:#448aca;
+  }
+.about-img .btn{
+    display:inline-block;
+    width:100%;
+    height: 20px;
+}
+
+@media (max-width:768px){
+    .bg-white{
+        display: block;
+        margin-left: 0px;
+        float: left;
+        overflow: hidden;
+    }
+    .box{
+        width:300px;
+        height:200px;
+        margin-left: 10px;
+    }
+    .box-1{
+        width:300px;
+        height:350px;
+        margin-left: 20px;
+        padding: 0;
+    }
+    .btn{
+        width:100%;
+        display:flex; 
+        align-items:flex-end;
+    }
+}
+
+
+
+
+
